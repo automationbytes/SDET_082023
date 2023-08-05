@@ -1,0 +1,51 @@
+Java - 1995
+Oracle
+
+Mobile applications (Android Apps)
+Desktop applications
+Web applications
+Web Servers
+DB connection
+Games
+
+Why Java?
+Java can work with different platforms
+Java is open source and free
+Java is most popular/large demand/huge community support
+
+Easy to learn and simple to use
+fast
+secure
+powerful
+OOPS
+
+
+
+JDK - Java Development Kit
+JRE - Java Runtime Environment
+JVM - Java Virtual Machine
+
+
+Variables - Container to store a value
+Datatypes - To segregate the data based on values
+
+Primitive Datatype - 8 datatypes
+Non Primitive Datatype - All other are called as non primitive
+
+
+byte        1 byte      2^8 = 256 Store range from -128 to 127 (0 will be considered as positive number)
+short       2 bytes     2^16
+int         4 bytes
+long        8 bytes
+float       4 bytes
+double      8 bytes
+boolean     1 bit
+char        2 bytes
+
+TypeCasting
+Changing from one datatype to another datatype
+
+Widening casting -> Smaller datatype to bigger datatype
+(automatically)
+Narrowing casting -> Larger datatype to smaller datatype
+(manually)

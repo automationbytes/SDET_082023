@@ -1,0 +1,9 @@
+.settings
+bin
+.classpath
+.project
+.metadata
+target
+/JavaRefresher/out/
+/JavaRefresher/JavaRefresher.iml
+/JavaRefresher/.idea/
