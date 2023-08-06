@@ -1,0 +1,14 @@
+Loops - used to perform repeated action based on condition
+
+3 types of loops
+
+for loop
+while loop
+do while loop
+
+for loop
+for(init (Start); condition(stop) ; increment/decrement(step)
+
+while loop
+
+condition
