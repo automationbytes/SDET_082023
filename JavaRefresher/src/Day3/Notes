@@ -1,0 +1,45 @@
+Multidimensional Array
+
+Used for manipulating/storing tabular form data (rows n columns)
+
+
+Methods
+block of code which only runs when we need it (when we call it)
+pass data, perform operations
+
+reusability
+
+
+Static - Memory Management
+(load the things as soon as main method is initiated)
+
+4 areas
+
+variable
+method
+block
+nested class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+variables
+---------
+static variables - class variables
+
+
+
+accessmodifier nonaccessmodifier returntype methodname(any arguments){
+
+}
+
