@@ -1,0 +1,75 @@
+OOPS - object oriented Programming
+
+is faster and easier to execute
+clear structure
+modify
+reusability
+
+Inheritance
+-----------
+Inherit attributes and methds from one class to another class.
+
+sub class (child) - the class that inherits from another class
+super class (parent) - the class being inherited from
+
+
+Polymorphism
+------------
+Poly - many
+morph - forms
+
+Same methods going to act differently in different situation
+
+
+Overloading - Compile Time Polymorphism
+
+Overriding - Run Time Polymorphism
+
+parent
+partner() - abc //some effort
+property()
+
+child
+partner() - xyz
+
+
+
+
+Abstraction
+-----------
+
+Data hiding. Showing only essential information
+
+Abstract class
+0-100% abstraction
+abstract methods - methods without body (only declaration)
+non abstract methods - methds wt body and declaration
+
+Interfaces
+100% abstraction
+
+sms
+call
+
+apple - ios
+samsung - andriod
+
+
+Encapsulation
+-------------
+
+
+
+
+
+
+
+
+Access Modifiers
+----------------
+
+public
+protected
+private
+default
+
