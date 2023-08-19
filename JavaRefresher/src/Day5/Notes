@@ -1,0 +1,38 @@
+Exception Handling
+=------------------
+
+Throwable-
+
+Exception - Which can be recoverable
+
+Checked Exceptions - Compile time Exceptions
+Unchecked Exceptions - Run time Exceptions
+
+Error - Which cant be recoverable
+
+------------------------------------------
+
+Try
+open first door
+open second door
+get into the house
+switch on the AC
+
+catch
+switch on the AC - Power failure
+
+finally
+switch off the AC
+close the second door
+close the first door
+
+throw - user defd exception
+
+throws
+
+----------------------------------
+Date Generation
+--------------
+Simple Date Format
+Local Date Time
+
