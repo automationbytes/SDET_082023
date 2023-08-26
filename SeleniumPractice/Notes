@@ -1,0 +1,16 @@
+Selenium IDE - Plugin record/playback
+Selenium RC - Selenium 1.0
+Selenium WebDriver - Selenium 2.0->4.0
+Selenium Grid - Parallel execution
+
+
+8 locators
+----------
+1)Id
+2)Name
+3)ClassName - duplicated entries
+4)TagName - duplicated entries
+5)LinkText
+6)PartialLinkText
+7)Xpath
+8)CSS
