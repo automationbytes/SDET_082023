@@ -14,3 +14,40 @@ Selenium Grid - Parallel execution
 6)PartialLinkText
 7)Xpath
 8)CSS
+
+
+XPath - XML Path
+
+Absolute Xpath - Start node. /
+Relative Xpath - From the position . //
+
+//tagname[@attribute = 'value']
+
+tagname - which ever its starting its tagname
+//a[@data-testid = 'open-registration-form-button']
+
+//tagname[text() = 'value']
+//a[text()='Create new account']
+
+//and or or operator
+//input[@type='text' and @name='firstname']
+
+//input[contains(@aria-label,"Mobile number")]
+
+CSS -
+    a[data-testid = 'open-registration-form-button']
+
+
+
+dropdown
+//select
+3ways we can select the values from dropdown
+
+select by value -
+select by visible text -
+select by index
+
+
+//list-
+//ul
+//ol
