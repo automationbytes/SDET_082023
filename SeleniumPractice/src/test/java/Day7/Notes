@@ -1,0 +1,33 @@
+3 types waits
+
+1) Implicit wait - all elements
+2) Explicit wait - particular element
+3) Fluent wait - Advanced version explicit wait
+
+Page load timeout - managing on loading the website
+
+Theard.sleep - Halt our execution
+
+
+Switch To
+
+Popups - Alerts
+iframes
+Window handling
+
+
+iframes - html inside a html
+
+3 ways we can switch
+-------------------
+1) using id/name
+2) using locators
+3) using index
+
+alerts
+-------
+
+accept() - to click on positive values - Yes, Ok, Allow
+dismiss() - to click on negative values - No, Cancel, Not Allow
+getText() - get the value of the popup
+sendKeys - t0 enter the values
