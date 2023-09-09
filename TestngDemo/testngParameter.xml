@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test thread-count="3" parallel="methods" name="Test">
+        <parameter name="a" value="10"></parameter>
+        <parameter name="b" value="3"></parameter>
+
+       <classes>
+           <class name="org.example.Parameters"></class>
+       </classes>
+    </test>
+</suite>
