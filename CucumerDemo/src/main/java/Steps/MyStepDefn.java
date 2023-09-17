@@ -1,13 +1,18 @@
 package Steps;
 
+import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeAll;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.*;
 import junit.framework.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.io.File;
 import java.time.Duration;
 
 public class MyStepDefn {
@@ -46,4 +51,27 @@ public class MyStepDefn {
     }
 
 
+    @When("the user enters the {string} in username webedit")
+    public void theUserEntersTheInUsernameWebedit(String uname) {
+        driver.findElement(By.name("email")).sendKeys(uname);
+
+    }
+
+    @And("the user enters the {string} in password webedit")
+    public void theUserEntersTheInPasswordWebedit(String pwd) {
+        driver.findElement(By.name("pass")).sendKeys(pwd);
+    }
+
+
+    @After
+    public void takeScreenshot(Scenario scenario){
+        if(scenario.isFailed()){
+            byte[] screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+            scenario.attach(screenshot,"image/png",scenario.getName());
+            }
+        driver.close();
+        driver.quit();
+    }
+
 }
+

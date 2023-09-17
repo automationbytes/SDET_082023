@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="14.495" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="To automate Facebook application" name="To login into facebook application" time="13.981">
+<testsuite name="Cucumber" time="7.758" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="To automate Facebook application" name="To login into facebook application" time="7.342">
 <system-out><![CDATA[
 Given the user launches the facebook application............................passed
 Then the user verifies the facebook logo....................................passed
