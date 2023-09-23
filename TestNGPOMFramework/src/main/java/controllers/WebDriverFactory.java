@@ -23,7 +23,7 @@ public class WebDriverFactory extends BrowserFactory {
     public void beforeMethod(ITestResult testResult) throws Exception {
         result = testResult; // Assign the test result to the result variable
         LoggerUtil.initThreadLocalLogs();
-
+        .0000000000
         new WebDriverFactory();
         WebDriver driver = WebDriverFactory.createDriver();
         setWebDriver(driver);

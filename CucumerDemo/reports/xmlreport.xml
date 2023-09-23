@@ -1,11 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="14.495" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="To automate Facebook application" name="To login into facebook application" time="13.981">
+<testsuite name="Cucumber" time="26.869" tests="8" skipped="0" failures="0" errors="0">
+<testcase classname="To automate Facebook application" name="To login into facebook application using scenario outline &lt;uname&gt; - Example #1.4" time="24.26">
+<system-out><![CDATA[
+Given the user launches the facebook application............................passed
+Then the user verifies the facebook logo....................................passed
+When the user enters the "David" in username webedit........................passed
+And the user enters the "Face@123" in password webedit......................passed
+And the user clicks on login button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To automate Facebook application" name="To login into facebook application using scenario outline &lt;uname&gt; - Example #1.1" time="20.671">
+<system-out><![CDATA[
+Given the user launches the facebook application............................passed
+Then the user verifies the facebook logo....................................passed
+When the user enters the "Tom" in username webedit..........................passed
+And the user enters the "Face@123" in password webedit......................passed
+And the user clicks on login button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To automate Facebook application" name="To login into facebook application using scenario outline &lt;uname&gt; - Example #1.2" time="26.138">
+<system-out><![CDATA[
+Given the user launches the facebook application............................passed
+Then the user verifies the facebook logo....................................passed
+When the user enters the "Jack" in username webedit.........................passed
+And the user enters the "Face@321" in password webedit......................passed
+And the user clicks on login button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To automate Facebook application" name="To login into facebook application" time="23.65">
 <system-out><![CDATA[
 Given the user launches the facebook application............................passed
 Then the user verifies the facebook logo....................................passed
 When the user enters the username in username webedit.......................passed
 And the user enters the password in password webedit........................passed
+And the user clicks on login button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To automate Facebook application" name="To login into facebook application" time="25.625">
+<system-out><![CDATA[
+Given the user launches the facebook application............................passed
+Then the user verifies the facebook logo....................................passed
+When the user enters the "Tom" in username webedit..........................passed
+And the user enters the "Face@123" in password webedit......................passed
+And the user clicks on login button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To automate Facebook application" name="To login into facebook application using scenario outline &lt;uname&gt; - Example #1.6" time="25.732">
+<system-out><![CDATA[
+Given the user launches the facebook application............................passed
+Then the user verifies the facebook logo....................................passed
+When the user enters the "Mahi" in username webedit.........................passed
+And the user enters the "Vig@123" in password webedit.......................passed
+And the user clicks on login button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To automate Facebook application" name="To login into facebook application using scenario outline &lt;uname&gt; - Example #1.5" time="25.789">
+<system-out><![CDATA[
+Given the user launches the facebook application............................passed
+Then the user verifies the facebook logo....................................passed
+When the user enters the "Kal" in username webedit..........................passed
+And the user enters the "Hello@123" in password webedit.....................passed
+And the user clicks on login button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To automate Facebook application" name="To login into facebook application using scenario outline &lt;uname&gt; - Example #1.3" time="23.897">
+<system-out><![CDATA[
+Given the user launches the facebook application............................passed
+Then the user verifies the facebook logo....................................passed
+When the user enters the "Tim" in username webedit..........................passed
+And the user enters the "ILU@123" in password webedit.......................passed
 And the user clicks on login button.........................................passed
 ]]></system-out>
 </testcase>
